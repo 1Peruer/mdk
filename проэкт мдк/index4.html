@@ -21,7 +21,6 @@
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         
-        /* Стили для текста */
         h1 { color: #2c3e50; }
         h2 { color: #0077FF; border-bottom: 2px solid #eee; padding-bottom: 10px; }
         p { line-height: 1.6; }
@@ -85,12 +84,10 @@
         </main>
 
         <div class="vk-block">
-            <!-- Место для официального виджета -->
             <div id="vk_groups"></div>
 
             <div class="search-links">
                 <h3>Быстрый поиск в группе:</h3>
-                <!-- Ссылки ведут на поиск внутри группы ID -243319461 по хэштегам -->
                 <a href="https://vk.com/feed?q=%23выгул&section=search&c[group_id]=-243319461" target="_blank" class="btn">🔍 Найти выгул собак</a>
                 <a href="https://vk.com/feed?q=%23переезд&section=search&c[group_id]=-243319461" target="_blank" class="btn">🔍 Найти помощь с переездом</a>
                 <a href="https://vk.com/feed?q=%23мебель&section=search&c[group_id]=-243319461" target="_blank" class="btn">🔍 Найти сборку мебели</a>
@@ -103,9 +100,9 @@
 
     <script type="text/javascript">
         VK.Widgets.Group("vk_groups", {
-            mode: 0,      // Режим: название и кнопка
-            width: "220", // Ширина
-            height: "400" // Высота
+            mode: 0,      
+            width: "220", 
+            height: "400" 
         }, 243319461);
     </script>
 
